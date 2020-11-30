@@ -1,7 +1,8 @@
 import { useContext } from "react";
 import { Context } from "../store";
 import Movie from "../components/Movie";
-import Spinner from "../components/Spinner";
+import Spinner from "../components/Spinner/Spinner";
+import Error from '../components/Error';
 
 const Movies = () => {
     const [state] = useContext(Context)
